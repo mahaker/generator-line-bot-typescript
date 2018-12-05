@@ -1,5 +1,7 @@
 # Generator LINE Bot with TypeScript
 
+[![NPM](https://nodei.co/npm/generator-line-bot-typescript.png)](https://nodei.co/npm/generator-line-bot-typescript/)
+
 ## Install 
 
 ``` sh
