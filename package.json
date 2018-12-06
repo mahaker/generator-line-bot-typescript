@@ -7,7 +7,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,15 @@
   "author": "mahaker",
   "license": "MIT",
   "dependencies": {
+    "yeoman-assert": "^3.1.1",
     "yeoman-generator": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/mahaker/generator-line-bot-typescript/issues"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "yeoman-test": "^1.9.1"
   }
 }
