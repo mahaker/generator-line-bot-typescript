@@ -9,4 +9,6 @@ npm install -g yo
 npm install -g generator-line-bot-typescript
 ```
 
-## How to use
+## Commands
+
+`yo line-bot-typescript` generates scaffolds.
