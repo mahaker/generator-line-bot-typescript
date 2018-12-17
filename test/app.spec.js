@@ -38,6 +38,10 @@ describe('generator:app', () => {
                 author: ''
             });
         });
+
+        it('README.md content', () => {
+            assert.fileContent('README.md', '# tmp');
+        });
     });
 
     describe('With botName and author', () => {
@@ -73,6 +77,10 @@ describe('generator:app', () => {
                 name: 'bot with typescript',
                 author: 'mahaker'
             });
+        });
+
+        it('README.md content', () => {
+            assert.fileContent('README.md', '# bot with typescript');
         });
     });
 });

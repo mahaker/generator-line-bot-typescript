@@ -1,4 +1,4 @@
-# line-bot-typescript
+# <%= botName %>
 
 ## Development
 
