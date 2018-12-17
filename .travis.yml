@@ -6,3 +6,7 @@ install:
   - npm install
 script:
   - npm run test
+notifications:
+  webhooks:
+    - https://idobata.io/hook/travis_ci/6c7b607f-9395-4108-80d7-85408c68ac5d
+  email: false
