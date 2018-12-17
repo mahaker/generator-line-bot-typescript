@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "yeoman-assert": "^3.1.1",
-    "yeoman-generator": "^1.0.0"
+    "yeoman-generator": "^3.1.1"
   },
   "bugs": {
     "url": "https://github.com/mahaker/generator-line-bot-typescript/issues"
