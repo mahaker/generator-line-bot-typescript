@@ -16,16 +16,6 @@ module.exports = class extends Generator {
             name    : 'author',
             message : 'author name',
             default : ''
-        }, {
-            type    : 'input',
-            name    : 'channelAccessToken',
-            message : 'Your LINE Bot channelAccessToken',
-            default : ''
-        }, {
-            type    : 'input',
-            name    : 'channelSecret',
-            message : 'Your LINE Bot channelSecret',
-            default : ''
         }]);
     }
 

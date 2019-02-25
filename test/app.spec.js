@@ -11,8 +11,6 @@ describe('generator:app', () => {
                 {
                     botName: 'tmp',
                     author: '',
-                    channelAccessToken: '',
-                    channelSecret: ''
                 }
             );
         });
@@ -51,8 +49,6 @@ describe('generator:app', () => {
                 {
                     botName: 'bot with typescript',
                     author: 'mahaker',
-                    channelAccessToken: '',
-                    channelSecret: ''
                 }
             );
         });
