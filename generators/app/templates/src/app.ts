@@ -8,11 +8,11 @@ import {
 import Express, { Request, Response } from 'express';
 
 const clientConfig: ClientConfig = {
-    channelAccessToken: 'Your ChannelAccessToken',
+    channelAccessToken: process.env.LINE_CHANNEL_ACCESS_TOKEN || '',
 };
 
 const middlewareConfig: MiddlewareConfig = {
-    channelSecret: 'Your ChannelSecret',
+    channelSecret: process.env.LINE_CHANNEL_SECRET || '',
 };
 
 const botClient = new Client(clientConfig);
