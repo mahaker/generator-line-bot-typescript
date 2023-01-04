@@ -28,8 +28,8 @@
     "url": "https://github.com/mahaker/generator-line-bot-typescript/issues"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
-    "jest-cli": "^23.6.0",
+    "jest": "^29.3.1",
+    "jest-cli": "^29.3.1",
     "yeoman-test": "^1.9.1"
   }
 }
